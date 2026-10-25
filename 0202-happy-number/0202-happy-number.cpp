@@ -10,7 +10,7 @@ public:
     }
     bool isHappy(int n) {
         if(n==4)
-        return false;
+        return false;  // it forms a loop which can make it to TLE
         if(n==1)
         return true;
 
